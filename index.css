@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: lightblue;
+}
+nav{
+    background-color: rgba(21, 46, 158, 0.534);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.weather-logo{
+    height: 40px;
+}
+.search-bar{
+    font-size: 17px;
+    padding: 7px 14px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+}
+.search-button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+}
+.user-location{
+    width: auto;
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+.current-container{
+    height: 35vh;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.details-contaioner{
+    padding: 10px;
+    font-size: 25px;
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 29px;
+}
+.icon{
+    width: 100px;
+}
+.forecast-container{
+    margin: 20px;
+}
+.weather-cards{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: auto;
+}
+.card{
+    background-color: gray;
+    width: 200px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex: 0 0 auto;
+    border-radius: 18px;
+    margin: 10px;
+}
+.card-icon{
+    width: 80px;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
