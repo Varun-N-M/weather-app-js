@@ -45,6 +45,7 @@ let weather = {
                 document.querySelector(".temp").innerText = "Temperature:" + temp + "°C";
                 document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
                 document.querySelector(".wind").innerText = "Wind speed: " + speed + " km/h";
+                document.querySelector(".weather-data").classList.remove("blank")
             } else {
                 const { icon, description } = weatheritem.weather[0];
                 const { temp, humidity } = weatheritem.main;
